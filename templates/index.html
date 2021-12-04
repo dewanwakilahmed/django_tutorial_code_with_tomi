@@ -132,7 +132,7 @@
         </div>
 
         <div class="row icon-boxes">
-          {% for feature in features %} {% if feature.is_true == True %}
+          {% for feature in features %}
           <div
             class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
             data-aos="zoom-in"
@@ -144,7 +144,7 @@
               <p class="description">{{feature.details}}</p>
             </div>
           </div>
-          {% endif %} {% endfor %}
+          {% endfor %}
         </div>
       </div>
     </section>
